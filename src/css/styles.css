@@ -1,0 +1,196 @@
+body {
+    background: #9796f0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+    font-family: "Kanit", sans-serif;
+}
+
+.all {
+    display: flex;
+    margin: 20px;
+}
+
+.left {
+    width: 30%;
+    height: 90vh;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.profile-img {
+    border-radius: 100px;
+    background-image: linear-gradient(#9796f0, #fbc7d4);
+    padding: 5px;
+    border: 10px;
+    transition: background-image 0.3s ease, transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(0.95);
+    background-image: linear-gradient(#AA076B, #61045F);
+}
+
+.name>h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+}
+
+.name>h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #8e0068;
+    margin: 5px;
+}
+
+.right {
+    width: 65%;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.right-top {
+    height: 50%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.educational {
+    display: flex;
+    justify-content: center;
+}
+
+.educational-text {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #61045F;
+    margin: 5px;
+
+}
+
+.educational-record {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school {
+    transition: transform 0.3s ease;
+}
+
+.school:hover {
+    transform: scale(1.1);
+}
+
+.name-school {
+    font-size: 26px;
+    color: #61045F;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-buttom {
+    display: flex;
+}
+
+.right-buttom-left {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    height: 37vh;
+    width: 30%;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-buttom-left>.logo>p {
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #61045F;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    border-radius: 50%;
+    align-items: center;
+}
+
+.logo-img {
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+}
+
+.right-buttom-right {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: white;
+    height: 37vh;
+    width: 70%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-text {
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #61045F;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.icon-all {
+    display: inline-flex;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.icon-all:hover {
+    transform: scale(1.1);
+}
